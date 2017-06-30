@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Epistola magistri ad Valentinum episcopum de reprobacione nigromantice ficcionis</title>
+        <author>Arnaldi de Villanova</author>
+        <editor>Sebastià Giralt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>First Edition</edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Society for Classical Studies</publisher>
+        <distributor>Digital Latin Library</distributor>
+        <date>2016</date>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">
+            Distributed under a Creative Commons Attribution 4.0 International
+            License.</licence>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s">Library of Digital Latin Texts</title>
+        <biblScope unit="vol">1</biblScope>
+      </seriesStmt>
+      <sourceDesc>
+        <p>Born digital.</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <front xml:id="front">
+      <div type="section" xml:id="preface">
+        <head>Preface</head>
+        <p>General introductory remarks about the edition.</p>
+        <div type="section" xml:id="preface-section-1">
+          <!--This is a section within the preface. Editors should use
+          sections (distinguished by <div>) to organize the content of the edition's preface.-->
+        </div>
+      </div>
+      <div type="section" xml:id="bibliography">
+        <head>Bibliography</head>
+        <!--This is where the bibliography for the edition is listed, including manuscript
+        descriptions, and lists of early editions, modern editions, and other sources cited
+        in the current edition. For more information on encoding the items in the bibliography
+        see section 3 Bibliography below. -->
+        <div type="section" xml:id="conspectus">
+          <head>Conspectus</head>
+          <!--A key to the special sigla and abbreviations used in the edition (drawn
+          from the @xml:id's assigned to the various items in the
+          bibliography). The list of sigla may be generated automatically. -->
+          <listWit>
+            <witness xml:id="L"><abbr type="siglum">L</abbr> = <title>Leipzig, Universitätsbibliothek 1.161, ff. 94va 95vb</title></witness>
+            <witness xml:id="B"><abbr type="siglum">B</abbr> = <title>London, British Library, Sloane 2.156, ff. 108vb 110vb</title></witness>
+            <witness xml:id="M"><abbr type="siglum">M</abbr> = <title>Oxford, Merton College 230, ff. 60ra 61va</title></witness>
+            <witness xml:id="P"><abbr type="siglum">P</abbr> = <title>Bibliothèque Nationale, lat. 17.847, ff. 53rb 56ra</title></witness>
+            <witness xml:id="Pa"><abbr type="siglum">Pa</abbr> = <title>Paris, Bibliothèque Nationale, lat. 6.971, ff. 65r 69r</title></witness>
+            <witness xml:id="Pr"><abbr type="siglum">Pr</abbr> = <title>Bibliothèque Nationale, lat. 7.337, pp. 110a 114a</title></witness>
+            <witness xml:id="V"><abbr type="siglum">V</abbr> = <title>Vatican, Biblioteca Apostolica, Palatino Latino 1.180, ff. 185r 187v</title></witness>
+            <witness xml:id="Vh2"><abbr type="siglum">V²</abbr> = <title>Vatican, Biblioteca Apostolica, Palatino Latino 1.180, ff. 185r 187v</title></witness>
+            <witness xml:id="Vi"><abbr type="siglum">Vi</abbr> = <title>Vienna, Österreichische Nationalbibliothek 5.315, ff. 78r 80v</title></witness>
+            <witness xml:id="Z"><abbr type="siglum">Z</abbr> = <title>Zagreb, Bibliotheca Metropolitana, MR lat. 154, ff. 81va 83vb</title></witness>
+          </listWit>
+        </div>
+        <div type="section" xml:id="bibliography-secondary-sources">
+          <head>Secondary Sources </head>      
+          <listBibl>
+            <bibl xml:id="Finke1902">  <abbr type="siglum">Finke 1902</abbr>.
+              <author>Finke, Heinrich</author>. <title>Aus den Tagen Bonifaz VIII</title>. <pubPlace>Münster</pubPlace>: <publisher>Aschendorff</publisher>, <date>1902</date>. URL: <ptr target="http://www.archive.org/details/ausdentagenboni00finkgoog"/>.
+            </bibl>
+          </listBibl>
+        </div>
+        
+      </div>
+    </front>
+    <body>
+      <div type="edition" xml:id="edition-text" xml:space="preserve">
+        <div type="textpart" n="1" xml:id="part1">
+          <head><app><lem>Epistola magistri Arnaldi de Villanova ad Valentinum episcopum de reprobacione nigromantice ficcionis</lem><rdg wit="#M">Incipit epistola magistri Arnaldi de Villanova ad Valentinum episcopum de reprobacione nigromantice ficcionis</rdg><rdg wit="#L">Contra nigromanticos</rdg><rdg wit="#B">Incipit epistola magistri Arnoldi de Villanova contra dicentes se posse cogere demones</rdg><rdg wit="#Pa">Incipit libellus de improbacione maleficiorum editus per venerabilem magistrum Arnaldum de Villanova</rdg><rdg wit="#Vi">Incipit epistola magistri Arnoldi de Villanova ad Valentinum presulem an aliquis posset cogere demonem et cetera</rdg><rdg wit="#Vh2" xml:id="rdg-demones">Epistola magistri Arnoldi contra curiositatem dicencium se habere posse cogendi demones</rdg><witDetail target="#rdg-demones" wit="#Vh2">(add. in mg.)</witDetail><rdg wit="#Z #P #Pr"/></app></head>
+          
+          <head>I</head>
+          <!--Text goes here, according to the conventions laid out elsewhere in these guidelines.-->
+          <p><app><lem wit="#P #L #V #B #Pa #Pr #Vi"> Reverendissimo</lem><rdg wit="#M #Z">Reverentissimo</rdg></app> patri et non ficte bonitatis exemplo, <app><lem>domino suo</lem><rdg wit="#Pr #Vi"/></app> <app><lem source="Finke1902">Iasperto</lem><rdg wit= "#M #Z #P"> i. </rdg><rdg wit="#L #B #Pa">io.</rdg> <rdg wit="#V">Iohanni</rdg><rdg wit="#Pr #Vi"/></app>, <app><lem>Dei</lem><rdg wit="#V"><add place="inline">gracia seu</add></rdg></app> provisione presuli Valentino, magister Arnaldus de Villanova, servus eiusdem humilis et fidelis, devotum reverencie munus et debitum servitutis. Indiciis desiderii vestri collectis nuper, magnifice pater, ex iocundo colloquio quod a vobis Valencie recolo pridie suscepisse, mitto pariter et ad delicias vestri racionabilis studii et ad fornacem iterum vestri examinis raciones quas rogatu quorundam dilectorum ex viris religiosis scripsi nuperrime, cum maris imperium stimulo formidantis horroris me custodire sua litora coegisset, contra curiositatem eorum qui aliter quam virtute divinitus per graciam immediate concessa garriunt asserendo se habere potenciam demones compellendi. Et proculdubio, si licitum sit cuique significandis rebus proprios adaptare sermones, non curiositas nec opinio sed vesania pocius merebitur appellari. Vobis igitur, mi pater et domine, iam incumbit ut lima forcioris ac diligencioris indaginis vestre nec non statera iudicii clarioris que levissimo extiterunt studio per me scripta nunc ad equales racionis mensuras et pondera reducantur habentes, si placet, fragilitatem meam in defectibus excusatam.</p>
+        </div>
+        <div type="textpart" n="2" xml:id="part2">
+          <head>II</head>
+          <p>Item non videtur illud fieri virtute substancie incorporee, quoniam intelligencia separata imperans demoni non videtur esse nisi Deus; ei vero nichil imperat nec ipse dat homini potenciam imperandi demoni nisi per graciam. Hii autem quibus talem concedit graciam sancti viri sunt, predicta vero exercentes peccatores nequissimi sunt.</p>
+          <!--Each new major section (e.g., book, volume) has a new <div>.-->
+        </div>
+      </div>
+    </body>
+    <back>
+      <!--The content of the back matter will be determined in consultation between
+      the editor and the staff of the DLL. Because LDLT editions are encoded, the
+      matter traditionally found in the back of a printed critical edition may be
+      generated by applications instead of having to be entered manually.
+      Nevertheless, there is space here for notes, indices, and other kinds of
+      information.-->
+    </back>
+  </text>
+</TEI>
